@@ -1,9 +1,10 @@
 on:
   push:
-    - main
-    - dev
-  pull_request:
-    - main
+    branches:
+      - main
+      - dev
+    pull_request:
+      - main
 
 jobs:
   hellow_world:
