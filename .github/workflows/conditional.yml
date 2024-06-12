@@ -3,7 +3,7 @@ on: [push]
 jobs:
   hello-world:
     runs-on: ubuntu-latest
-    if: github.repository == 'octo-org/octo-repo-prod'
+    if: github.repository == 'Vnuuk/actions-test'
     steps:
       - name: "Hello World"
         run: echo "Hello World!"
