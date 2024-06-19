@@ -3,7 +3,7 @@ name: Expression Functions Demo
 on:
   push:
     branches:
-      - main
+      - dev
     issues:
       types: [opened, labeled]
 
